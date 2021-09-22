@@ -1,0 +1,73 @@
+body {
+	background: #f7f7f7;
+}
+.container {
+	width: 400px;
+	margin: 100px auto;
+	border-radius: 5px;
+	border: 1px solid #95A5A6;
+	color: #515751;
+    box-shadow: 4px 4px 6px 0px rgba(149,165,166,0.75);
+}
+
+#payment_heading
+{
+    text-align: center;
+    background-image: linear-gradient(#c8e7ff,#c0fdff);
+    font-size:25px;
+    font-family: 'Lexend Mega', sans-serif;
+}
+#amount_heading
+{
+    font-size:22px;
+    padding-left:5px;
+    font-family: 'Hammersmith One', sans-serif;
+    background-image: linear-gradient(#4cc9f0,#4895ef);
+}
+/* .container .inner 
+{
+    /* background-image: linear-gradient(#ffcbf2,#deaaff); */
+    /* background-color: #e8e8e4; */
+} */
+.container .inner #amount_heading
+{
+    padding-left:20px;
+    font-size:22px;
+}
+.container  .sub
+{   
+    position:absolute;
+    top:180px;
+    left:850px;
+    font-size: 12px;;
+}
+.sec_inner
+{
+    margin-left:5px;
+
+}
+input[type="submit"],input[type="text"]
+{
+    padding:8px;
+    width:180px;
+    /* box-shadow: 2px 2px 0px 0px white; */
+    border:2px solid skyblue;
+    border-radius: 5px;
+    text-align: center;
+    font-size:12px;
+    font-family: 'Lexend Giga', sans-serif;
+}
+input[type="submit"]
+{
+    margin-top:25px;
+    margin-bottom: 50px;
+    width:100%;
+    padding:10px 35px 10px 35px;
+    border:2px solid seagreen;
+    border-radius: 5px;
+    background-color:navajowhite;
+}
+input[type="submit"]:hover{
+    cursor: pointer;
+}
+h3{font-size:15px;font-family: 'Pangolin', cursive;}
